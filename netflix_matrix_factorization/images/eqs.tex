@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{alignat*}{3}
+r(u,m)= & &&\frac{1}{N}\sum_{i=1}^{N}(\sqrt{3}+U(u,i)+M(m,i))^2 && \\
+=& &&3 &&\text{offset} \\
+&+ &&\frac{2\sqrt{3}}{N}\sum_{i=1}^{N}U(u,i) &&\text{user-offset} \\
+&+ &&\frac{2\sqrt{3}}{N}\sum_{i=1}^{N}M(m,i) &&\text{movie-offset} \\
+&+ &&\frac{2}{N}\sum_{i=1}^{N}U(u,i)M(m,i) &&\text{matrix-factorization-"convolution"?} \\
+&+ &&\frac{1}{N}\sum_{i=1}^{N}U(u,i)^2 &&\text{user-"regularization"} \\
+&+ &&\frac{1}{N}\sum_{i=1}^{N}M(m,i)^2 &&\text{movie-"regularization"}
+\end{alignat*}
+
+\[
+r(u,m)=3+\sum_{i=1}^{N}U(u,i)M(m,i)
+\]
+
+\[
+r(u,m)=3+\sum_{i=1}^{N_u}\sum_{j=1}^{N_m}U(u,i)M(m,j)R(i,j)
+\]
+
+\end{document}
