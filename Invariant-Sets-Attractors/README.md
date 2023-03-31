@@ -2,13 +2,13 @@
 * [Python](https://docs.python.org/3/whatsnew/3.6.html) [3.6.1]
   * Finding [Invariant Sets](https://en.wikipedia.org/wiki/Invariant_(mathematics)) ([attractors](https://en.wikipedia.org/wiki/Attractor)) for:
     * [Hénon Map](https://en.wikipedia.org/wiki/H%C3%A9non_map)
-    ![Hénon](/Invariant-Sets-Attractors/images/henon_1000_points_1000_steps_13_subdivision.png)
+    ![Hénon](./images/henon_1000_points_1000_steps_13_subdivision.png)
     * Chaotic Saddle
-    ![Chaotic Saddle](/Invariant-Sets-Attractors/images/chaotic_saddle_1000_points_1000_steps_9_subdivision.png)
+    ![Chaotic Saddle](./images/chaotic_saddle_1000_points_1000_steps_9_subdivision.png)
     * [Rössler attractor](https://en.wikipedia.org/wiki/R%C3%B6ssler_attractor)
-    ![Rössler attractor](/Invariant-Sets-Attractors/images/rossler.png)
+    ![Rössler attractor](./images/rossler.png)
     * [Lorenz attractor](http://mathworld.wolfram.com/LorenzAttractor.html)
-    ![Lorenz attractor](/Invariant-Sets-Attractors/images/lorenz.png)
+    ![Lorenz attractor](./images/lorenz.png)
   * References:
     * Oliver Junge, Ioannis G. Kevrekidis: [On the sighting of unicorns: a variational approach to computing invariant sets in dynamical systems](https://arxiv.org/abs/1610.04843)
     * [Broyden–Fletcher–Goldfarb–Shanno algorithm](https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm)
