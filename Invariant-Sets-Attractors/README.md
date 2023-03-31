@@ -17,4 +17,3 @@
     * Michael Dellnitz, Andreas Hohmann: [A subdivision algorithm for the computation of unstable manifolds and global attractors](https://opus4.kobv.de/opus4-zib/frontdoor/deliver/index/docId/177/file/SC-95-11.pdf)
     * Peter Taraba, Stefan Siegmung: [Approximation of box dimension of attractors using the subdivision algorithm](http://dx.doi.org/10.1080/14689360500141772)
     * Jon Bentley: [k-d tree](https://en.wikipedia.org/wiki/K-d_tree)
-    * [Invariant Sets](http://www.frisky.world/p/invariant-sets.html)
